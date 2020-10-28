@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct RecipeListView: View {
     @State var recipes = recipeData
@@ -181,7 +182,7 @@ struct RecipeView: View {
                 Spacer()
             }
             .frame(maxWidth: show ? .infinity : screen.width - 41, maxHeight: show ? 400 : 334)
-            .background(Image("Moussaka")
+            .background(WebImage(url: recipe.image)
                             .resizable()
                             .offset(y: 30)
                             .aspectRatio(contentMode: .fill)
