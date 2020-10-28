@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B846D4E42549A4AE00A2EAE4 /* ChefV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846D4E32549A4AE00A2EAE4 /* ChefV3App.swift */; };
+		B846D4E62549A4AE00A2EAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846D4E52549A4AE00A2EAE4 /* ContentView.swift */; };
+		B846D4E82549A4B000A2EAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846D4E72549A4B000A2EAE4 /* Assets.xcassets */; };
+		B846D4EB2549A4B000A2EAE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B846D4EA2549A4B000A2EAE4 /* Preview Assets.xcassets */; };
+		B846D4F62549A4B000A2EAE4 /* ChefV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846D4F52549A4B000A2EAE4 /* ChefV3Tests.swift */; };
+		B846D5012549A4B000A2EAE4 /* ChefV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B846D5002549A4B000A2EAE4 /* ChefV3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B846D4F22549A4B000A2EAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B846D4D82549A4AE00A2EAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B846D4DF2549A4AE00A2EAE4;
+			remoteInfo = ChefV3;
+		};
+		B846D4FD2549A4B000A2EAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B846D4D82549A4AE00A2EAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B846D4DF2549A4AE00A2EAE4;
+			remoteInfo = ChefV3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B846D4E02549A4AE00A2EAE4 /* ChefV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B846D4E32549A4AE00A2EAE4 /* ChefV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefV3App.swift; sourceTree = "<group>"; };
+		B846D4E52549A4AE00A2EAE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B846D4E72549A4B000A2EAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B846D4EA2549A4B000A2EAE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B846D4EC2549A4B000A2EAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B846D4F12549A4B000A2EAE4 /* ChefV3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefV3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B846D4F52549A4B000A2EAE4 /* ChefV3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefV3Tests.swift; sourceTree = "<group>"; };
+		B846D4F72549A4B000A2EAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B846D4FC2549A4B000A2EAE4 /* ChefV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B846D5002549A4B000A2EAE4 /* ChefV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefV3UITests.swift; sourceTree = "<group>"; };
+		B846D5022549A4B000A2EAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B846D4DD2549A4AE00A2EAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846D4EE2549A4B000A2EAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846D4F92549A4B000A2EAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B846D4D72549A4AE00A2EAE4 = {
+			isa = PBXGroup;
+			children = (
+				B846D4E22549A4AE00A2EAE4 /* ChefV3 */,
+				B846D4F42549A4B000A2EAE4 /* ChefV3Tests */,
+				B846D4FF2549A4B000A2EAE4 /* ChefV3UITests */,
+				B846D4E12549A4AE00A2EAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B846D4E12549A4AE00A2EAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B846D4E02549A4AE00A2EAE4 /* ChefV3.app */,
+				B846D4F12549A4B000A2EAE4 /* ChefV3Tests.xctest */,
+				B846D4FC2549A4B000A2EAE4 /* ChefV3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B846D4E22549A4AE00A2EAE4 /* ChefV3 */ = {
+			isa = PBXGroup;
+			children = (
+				B846D4E32549A4AE00A2EAE4 /* ChefV3App.swift */,
+				B846D4E52549A4AE00A2EAE4 /* ContentView.swift */,
+				B846D4E72549A4B000A2EAE4 /* Assets.xcassets */,
+				B846D4EC2549A4B000A2EAE4 /* Info.plist */,
+				B846D4E92549A4B000A2EAE4 /* Preview Content */,
+			);
+			path = ChefV3;
+			sourceTree = "<group>";
+		};
+		B846D4E92549A4B000A2EAE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B846D4EA2549A4B000A2EAE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B846D4F42549A4B000A2EAE4 /* ChefV3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B846D4F52549A4B000A2EAE4 /* ChefV3Tests.swift */,
+				B846D4F72549A4B000A2EAE4 /* Info.plist */,
+			);
+			path = ChefV3Tests;
+			sourceTree = "<group>";
+		};
+		B846D4FF2549A4B000A2EAE4 /* ChefV3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B846D5002549A4B000A2EAE4 /* ChefV3UITests.swift */,
+				B846D5022549A4B000A2EAE4 /* Info.plist */,
+			);
+			path = ChefV3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B846D4DF2549A4AE00A2EAE4 /* ChefV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B846D5052549A4B000A2EAE4 /* Build configuration list for PBXNativeTarget "ChefV3" */;
+			buildPhases = (
+				B846D4DC2549A4AE00A2EAE4 /* Sources */,
+				B846D4DD2549A4AE00A2EAE4 /* Frameworks */,
+				B846D4DE2549A4AE00A2EAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChefV3;
+			productName = ChefV3;
+			productReference = B846D4E02549A4AE00A2EAE4 /* ChefV3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B846D4F02549A4B000A2EAE4 /* ChefV3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B846D5082549A4B000A2EAE4 /* Build configuration list for PBXNativeTarget "ChefV3Tests" */;
+			buildPhases = (
+				B846D4ED2549A4B000A2EAE4 /* Sources */,
+				B846D4EE2549A4B000A2EAE4 /* Frameworks */,
+				B846D4EF2549A4B000A2EAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B846D4F32549A4B000A2EAE4 /* PBXTargetDependency */,
+			);
+			name = ChefV3Tests;
+			productName = ChefV3Tests;
+			productReference = B846D4F12549A4B000A2EAE4 /* ChefV3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B846D4FB2549A4B000A2EAE4 /* ChefV3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B846D50B2549A4B000A2EAE4 /* Build configuration list for PBXNativeTarget "ChefV3UITests" */;
+			buildPhases = (
+				B846D4F82549A4B000A2EAE4 /* Sources */,
+				B846D4F92549A4B000A2EAE4 /* Frameworks */,
+				B846D4FA2549A4B000A2EAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B846D4FE2549A4B000A2EAE4 /* PBXTargetDependency */,
+			);
+			name = ChefV3UITests;
+			productName = ChefV3UITests;
+			productReference = B846D4FC2549A4B000A2EAE4 /* ChefV3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B846D4D82549A4AE00A2EAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					B846D4DF2549A4AE00A2EAE4 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					B846D4F02549A4B000A2EAE4 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B846D4DF2549A4AE00A2EAE4;
+					};
+					B846D4FB2549A4B000A2EAE4 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B846D4DF2549A4AE00A2EAE4;
+					};
+				};
+			};
+			buildConfigurationList = B846D4DB2549A4AE00A2EAE4 /* Build configuration list for PBXProject "ChefV3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B846D4D72549A4AE00A2EAE4;
+			productRefGroup = B846D4E12549A4AE00A2EAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B846D4DF2549A4AE00A2EAE4 /* ChefV3 */,
+				B846D4F02549A4B000A2EAE4 /* ChefV3Tests */,
+				B846D4FB2549A4B000A2EAE4 /* ChefV3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B846D4DE2549A4AE00A2EAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B846D4EB2549A4B000A2EAE4 /* Preview Assets.xcassets in Resources */,
+				B846D4E82549A4B000A2EAE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846D4EF2549A4B000A2EAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846D4FA2549A4B000A2EAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B846D4DC2549A4AE00A2EAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B846D4E62549A4AE00A2EAE4 /* ContentView.swift in Sources */,
+				B846D4E42549A4AE00A2EAE4 /* ChefV3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846D4ED2549A4B000A2EAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B846D4F62549A4B000A2EAE4 /* ChefV3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846D4F82549A4B000A2EAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B846D5012549A4B000A2EAE4 /* ChefV3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B846D4F32549A4B000A2EAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B846D4DF2549A4AE00A2EAE4 /* ChefV3 */;
+			targetProxy = B846D4F22549A4B000A2EAE4 /* PBXContainerItemProxy */;
+		};
+		B846D4FE2549A4B000A2EAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B846D4DF2549A4AE00A2EAE4 /* ChefV3 */;
+			targetProxy = B846D4FD2549A4B000A2EAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B846D5032549A4B000A2EAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B846D5042549A4B000A2EAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B846D5062549A4B000A2EAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChefV3/Preview Content\"";
+				DEVELOPMENT_TEAM = HN65VPBR66;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChefV3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefapp.ChefV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B846D5072549A4B000A2EAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChefV3/Preview Content\"";
+				DEVELOPMENT_TEAM = HN65VPBR66;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChefV3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefapp.ChefV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B846D5092549A4B000A2EAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN65VPBR66;
+				INFOPLIST_FILE = ChefV3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefapp.ChefV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChefV3.app/ChefV3";
+			};
+			name = Debug;
+		};
+		B846D50A2549A4B000A2EAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN65VPBR66;
+				INFOPLIST_FILE = ChefV3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefapp.ChefV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChefV3.app/ChefV3";
+			};
+			name = Release;
+		};
+		B846D50C2549A4B000A2EAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN65VPBR66;
+				INFOPLIST_FILE = ChefV3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefapp.ChefV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChefV3;
+			};
+			name = Debug;
+		};
+		B846D50D2549A4B000A2EAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN65VPBR66;
+				INFOPLIST_FILE = ChefV3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chefapp.ChefV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChefV3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B846D4DB2549A4AE00A2EAE4 /* Build configuration list for PBXProject "ChefV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B846D5032549A4B000A2EAE4 /* Debug */,
+				B846D5042549A4B000A2EAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B846D5052549A4B000A2EAE4 /* Build configuration list for PBXNativeTarget "ChefV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B846D5062549A4B000A2EAE4 /* Debug */,
+				B846D5072549A4B000A2EAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B846D5082549A4B000A2EAE4 /* Build configuration list for PBXNativeTarget "ChefV3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B846D5092549A4B000A2EAE4 /* Debug */,
+				B846D50A2549A4B000A2EAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B846D50B2549A4B000A2EAE4 /* Build configuration list for PBXNativeTarget "ChefV3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B846D50C2549A4B000A2EAE4 /* Debug */,
+				B846D50D2549A4B000A2EAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B846D4D82549A4AE00A2EAE4 /* Project object */;
+}
