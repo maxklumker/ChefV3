@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import Firebase
 import SDWebImageSwiftUI
 
 struct RecipeListView: View {
-    @State var recipes = recipeData
+//    @State var recipes = recipeData
     @State var active = false
     @State var activeIndex = -1
     
@@ -76,10 +77,10 @@ struct RecipeView: View {
                             .foregroundColor(Color.black)
                         
                         HStack {
-                            Text(recipe.serving)
+                            Text("serving 2 adults")
                                 .font(.system(size: 15, weight: .medium))
                                 .foregroundColor(Color.black)
-                            Text(recipe.time)
+                            Text("30 min")
                                 .font(.system(size: 15, weight: .medium))
                                 .foregroundColor(Color.black)
                                 .offset(x: -5)
@@ -182,7 +183,7 @@ struct RecipeView: View {
                 Spacer()
             }
             .frame(maxWidth: show ? .infinity : screen.width - 41, maxHeight: show ? 400 : 334)
-            .background(WebImage(url: recipe.image)
+            .background(url: URL(string: recipe.image)!
                             .resizable()
                             .offset(y: 30)
                             .aspectRatio(contentMode: .fill)
@@ -206,21 +207,47 @@ struct RecipeView: View {
     }
 }
 
-struct Recipe: Identifiable {
-    var id = UUID()
-    var title: String
-    var image: URL
-    var serving: String
-    var time: String
-    var show: Bool
+//struct Recipe: Identifiable {
+//    var id = UUID()
+//    var title: String
+//    var image: URL
+//    var serving: String
+//    var time: String
+//    var show: Bool
+//}
+//
+//var recipeData = [
+//    Recipe(title: "pea soup with walnut pesto", image: URL(string: "https://dl.dropbox.com/s/x0cpo32qwroxjf8/01_cover_pea_soup_detail_large.jpg?dl=0")!, serving: "serving 2 adults ・", time: "30 min", show: false),
+//    Recipe(title: "plant-based Moussaka", image: URL(string: "https://dl.dropbox.com/s/2vrhqpapqqpmii2/02_cover_moussaka_large.jpg?dl=0")!, serving: "serving 2 adults ・", time: "30 min", show: false),
+//    Recipe(title: "mint basil pesto", image: URL(string: "https://dl.dropbox.com/s/ap3buf4qkxin7wn/03_cover_mint_basil_pesto_detail_large.png?dl=0")!, serving: "serving 2 adults ・", time: "30 min", show: false)
+//]
+
+
+class getRecipesData : ObservableObject{
+    
+    @Published var datas = [Recipe]()
+
+    init() {
+        
+        let db = Firestore.firestore()
+        db.collection("recipes").addSnapshotListener { (snap, err) in
+            
+            if err != nil {
+                print((err?.localizedDescription)!)
+                return
+            }
+            
+            for i in snap!.documentChanges{
+                let id = i.document.documentID
+                let title = i.document.get("title") as! String
+                let image = i.document.get("image") as! String
+                let ingredients = i.document.get("ingredients") as! Array<Any>
+                
+                self.datas.append(Recipe(id: id, title: title, image: image, ingredients: ingredients))
+            }
+        }
+    }
 }
-
-var recipeData = [
-    Recipe(title: "pea soup with walnut pesto", image: URL(string: "https://dl.dropbox.com/s/x0cpo32qwroxjf8/01_cover_pea_soup_detail_large.jpg?dl=0")!, serving: "serving 2 adults ・", time: "30 min", show: false),
-    Recipe(title: "plant-based Moussaka", image: URL(string: "https://dl.dropbox.com/s/2vrhqpapqqpmii2/02_cover_moussaka_large.jpg?dl=0")!, serving: "serving 2 adults ・", time: "30 min", show: false),
-    Recipe(title: "mint basil pesto", image: URL(string: "https://dl.dropbox.com/s/ap3buf4qkxin7wn/03_cover_mint_basil_pesto_detail_large.png?dl=0")!, serving: "serving 2 adults ・", time: "30 min", show: false)
-]
-
 
 struct RecipeListView_Previews: PreviewProvider {
     static var previews: some View {

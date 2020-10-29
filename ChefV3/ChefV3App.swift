@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct ChefV3App: App {
@@ -14,4 +15,12 @@ struct ChefV3App: App {
             ContentView()
         }
     }
+    
+    func application(_ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions:
+            [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
 }
+
