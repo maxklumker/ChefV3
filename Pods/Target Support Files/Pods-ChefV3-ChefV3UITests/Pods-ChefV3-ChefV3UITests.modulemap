@@ -1,0 +1,6 @@
+framework module Pods_ChefV3_ChefV3UITests {
+  umbrella header "Pods-ChefV3-ChefV3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

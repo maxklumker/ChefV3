@@ -1,0 +1,6 @@
+framework module Pods_ChefV3 {
+  umbrella header "Pods-ChefV3-umbrella.h"
+
+  export *
+  module * { export * }
+}
