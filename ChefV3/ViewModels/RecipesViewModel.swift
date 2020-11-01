@@ -9,7 +9,7 @@ import Foundation
 import FirebaseFirestore
 
 class RecipesViewModel: ObservableObject {
-    @Published var recipes = [Recipe]()
+    @Published var recipes2 = [Recipe2]()
     
     private var db = Firestore.firestore()
     
@@ -20,14 +20,14 @@ class RecipesViewModel: ObservableObject {
                 return
             }
             
-            self.recipes = documents.map { (queryDocumentSnapshot) -> Recipe in
+            self.recipes2 = documents.map { (queryDocumentSnapshot) -> Recipe2 in
                 let data = queryDocumentSnapshot.data()
                 
                 let title = data["title"] as? String ?? ""
                 let image = data["image"] as? String ?? ""
-                let ingredients = data["ingredients"] as? Array<Any> ?? ""
+//                let ingredients = data["ingredients"] as? Array<Any> ?? ""
                 
-                return Recipe(title: title, image: image, ingredients: ingredients)
+                return Recipe2(title: title, image: image)
             }
         }
     }
